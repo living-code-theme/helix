@@ -1,0 +1,48 @@
+{
+  "$schema": "https://living-code.dev/port.schema.json",
+  "schemaVersion": 1,
+  "name": "Helix",
+  "slug": "helix",
+  "group": "Editors",
+  "emoji": "🧬",
+  "description": "Living Code for Helix. Repository-owned theme files, installation instructions and four color flavors.",
+  "homepage": "https://helix-editor.com",
+  "quick": "See installation instructions",
+  "aliases": [
+    "helix"
+  ],
+  "flavors": [
+    "night",
+    "frost",
+    "paper",
+    "signal"
+  ],
+  "files": [
+    "living-code-frost.toml",
+    "living-code-night.toml",
+    "living-code-paper.toml",
+    "living-code-signal.toml"
+  ],
+  "images": [
+    {
+      "flavor": "night",
+      "path": "images/night.png",
+      "alt": "Helix running Living Code Night"
+    },
+    {
+      "flavor": "frost",
+      "path": "images/frost.png",
+      "alt": "Helix running Living Code Frost"
+    },
+    {
+      "flavor": "paper",
+      "path": "images/paper.png",
+      "alt": "Helix running Living Code Paper"
+    },
+    {
+      "flavor": "signal",
+      "path": "images/signal.png",
+      "alt": "Helix running Living Code Signal"
+    }
+  ]
+}

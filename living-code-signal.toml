@@ -1,0 +1,122 @@
+"attribute" = { fg = "teal" }
+"type" = { fg = "text2" }
+"type.builtin" = { fg = "text2" }
+"type.enum.variant" = { fg = "text2" }
+"type.enum.variant.builtin" = { fg = "text" }
+"constructor" = { fg = "text2" }
+"constant" = { fg = "text" }
+"constant.builtin" = { fg = "text" }
+"constant.numeric" = { fg = "text" }
+"constant.character.escape" = { fg = "text" }
+"string" = { fg = "text" }
+"string.regexp" = { fg = "text" }
+"string.special" = { fg = "text" }
+"string.special.url" = { fg = "teal", modifiers = ["underlined"] }
+"string.special.symbol" = { fg = "text" }
+"comment" = { fg = "comment", modifiers = ["italic"] }
+"variable" = { fg = "text" }
+"variable.parameter" = { fg = "text2", modifiers = ["italic"] }
+"variable.builtin" = { fg = "teal", modifiers = ["italic"] }
+"variable.other.member" = { fg = "text2" }
+"label" = { fg = "teal" }
+"punctuation" = { fg = "overlay" }
+"punctuation.special" = { fg = "teal" }
+"keyword" = { fg = "teal" }
+"keyword.directive" = { fg = "teal" }
+"operator" = { fg = "comment" }
+"function" = { fg = "text" }
+"function.builtin" = { fg = "text" }
+"function.macro" = { fg = "teal" }
+"tag" = { fg = "teal" }
+"namespace" = { fg = "text2" }
+"special" = { fg = "teal" }
+"constant.character" = { fg = "text" }
+"string.escape" = { fg = "text" }
+"string.special.path" = { fg = "text" }
+"function.special" = { fg = "teal" }
+"embedded" = { fg = "text" }
+"diff.delta.conflict" = { fg = "text" }
+"markup.link" = { fg = "teal", modifiers = ["underlined"] }
+"markup.list.checked" = { fg = "text2" }
+"markup.list.unchecked" = { fg = "comment" }
+"markup.heading" = { fg = "teal", modifiers = ["bold"] }
+"markup.list" = { fg = "teal" }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "teal", modifiers = ["underlined"] }
+"markup.link.text" = { fg = "teal", modifiers = ["underlined"] }
+"markup.quote" = { fg = "comment", modifiers = ["italic"] }
+"markup.raw" = { fg = "text" }
+"diff.plus" = { fg = "text2" }
+"diff.minus" = { fg = "text" }
+"diff.delta" = { fg = "teal" }
+"ui.background" = { bg = "base" }
+"ui.text" = { fg = "text" }
+"ui.text.focus" = { fg = "text", bg = "surface0" }
+"ui.text.inactive" = { fg = "comment" }
+"ui.linenr" = { fg = "overlay" }
+"ui.linenr.selected" = { fg = "text2", modifiers = ["bold"] }
+"ui.cursorline.primary" = { bg = "surface0" }
+"ui.cursor" = { fg = "base", bg = "subtext" }
+"ui.cursor.primary" = { fg = "base", bg = "teal" }
+"ui.cursor.match" = { fg = "teal", modifiers = ["bold", "underlined"] }
+"ui.cursor.primary.insert" = { fg = "base", bg = "amber" }
+"ui.cursor.primary.select" = { fg = "base", bg = "orchid" }
+"ui.selection" = { bg = "surface1" }
+"ui.selection.primary" = { bg = "surface2" }
+"ui.statusline" = { fg = "subtext", bg = "crust" }
+"ui.statusline.inactive" = { fg = "overlay", bg = "crust" }
+"ui.statusline.normal" = { fg = "base", bg = "teal", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "base", bg = "amber", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "base", bg = "orchid", modifiers = ["bold"] }
+"ui.bufferline" = { fg = "subtext", bg = "crust" }
+"ui.bufferline.active" = { fg = "text", bg = "base", underline = { color = "teal", style = "line" } }
+"ui.popup" = { fg = "text", bg = "mantle" }
+"ui.popup.info" = { fg = "text", bg = "mantle" }
+"ui.window" = { fg = "surface1" }
+"ui.help" = { fg = "text", bg = "mantle" }
+"ui.menu" = { fg = "text", bg = "mantle" }
+"ui.menu.selected" = { fg = "text", bg = "surface1" }
+"ui.menu.scroll" = { fg = "surface2", bg = "mantle" }
+"ui.picker.header" = { fg = "teal", modifiers = ["bold"] }
+"ui.virtual.whitespace" = { fg = "surface1" }
+"ui.virtual.ruler" = { bg = "surface0" }
+"ui.virtual.indent-guide" = { fg = "surface0" }
+"ui.virtual.inlay-hint" = { fg = "comment", bg = "surface0" }
+"ui.virtual.jump-label" = { fg = "teal", modifiers = ["bold"] }
+"ui.highlight" = { bg = "surface0" }
+"ui.gutter" = { bg = "base" }
+"error" = { fg = "text" }
+"warning" = { fg = "text2" }
+"info" = { fg = "text2" }
+"hint" = { fg = "text2" }
+"diagnostic.error" = { underline = { color = "text", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "text2", style = "curl" } }
+"diagnostic.info" = { underline = { color = "text2", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "text2", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+
+[palette]
+crust = "#020405"
+base = "#05080b"
+mantle = "#090e11"
+surface0 = "#12171a"
+surface1 = "#1d2226"
+surface2 = "#2d3438"
+overlay = "#50565b"
+comment = "#747c80"
+subtext = "#9ba0a2"
+text2 = "#c8cfd4"
+text = "#e2e9ee"
+teal = "#00a692"
+mint = "#00a692"
+aqua = "#e2e9ee"
+steel = "#c8cfd4"
+amber = "#e2e9ee"
+copper = "#e2e9ee"
+flare = "#e2e9ee"
+moss = "#c8cfd4"
+orchid = "#00a692"
+rose = "#c8cfd4"
